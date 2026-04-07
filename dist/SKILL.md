@@ -1,12 +1,6 @@
 ---
 name: mineru-precision-extract
-description: >
-  MinerU precision extract — high-accuracy document extraction with full feature set. Convert PDFs, scanned documents, images, Word (DOC/DOCX), PowerPoint (PPT/PPTX), and HTML files into Markdown, HTML, LaTeX, DOCX, or JSON with table recognition, formula recognition (LaTeX), and advanced OCR.
-  Choose between vlm model for highest accuracy on complex layouts, academic papers, and intricate tables, or pipeline model for zero-hallucination reliable extraction. Supports batch processing of hundreds of files, web page crawling to Markdown, and multi-format output in a single command.
-  Use this skill when you need to: extract tables from PDFs, recognize formulas in academic papers, convert PDF to HTML or LaTeX, batch process document files, OCR scanned documents with high precision, convert documents to DOCX format, crawl web pages to structured Markdown, or process documents with complex layouts.
-  Supports 80+ languages across Latin, Arabic, Cyrillic, Devanagari, CJK, and more script families. Handles large files with no size or page limits, unlike quick extraction modes.
-  Built for researchers, data engineers, academic institutions, and production document pipelines that demand accuracy and reliability. Works as a Claude Code skill, MCP tool, or standalone CLI.
-  高精度PDF提取、表格识别、公式识别、PDF转HTML、PDF转LaTeX、PDF转DOCX、批量PDF处理、扫描件OCR、学术论文解析、多格式文档转换。支持VLM高精度模型和零幻觉Pipeline模型，80+语言支持，适用于学术研究、数据工程和生产环境文档处理。
+description: Precision document extraction with full feature set — table recognition, formula recognition, OCR, multi-format output (Markdown, HTML, LaTeX, DOCX, JSON), batch processing, web crawling, model selection (vlm/pipeline), and 80+ language support. Powered by MinerU API.
 read_when:
   - Extracting tables from documents
   - Converting PDF to HTML, LaTeX, or DOCX
